@@ -1,0 +1,79 @@
+body {
+  min-height: 100vh;
+  background: linear-gradient(90deg, #e9f8fb, #fff1f1);
+}
+.ColorOne {
+  background-color: #3aa6b9;
+}
+.buttons {
+  border: 1px #3aa6b9 solid;
+  border-radius: 5px;
+  background-color: #3aa6b9;
+}
+.get-access {
+  color: #000000;
+  border: 2px #3aa6b9 solid;
+  border-radius: 5px;
+}
+.get-access:hover {
+  background-color: #3aa6b9;
+  color: #fff;
+}
+/* start web header */
+/* start section 1 */
+
+.discover {
+  margin-top: 100px;
+}
+/* end section 1 */
+/* start section FAQ */
+
+/* end section FAQ*/
+/* end web header */
+/* .............................. */
+/* start contact us */
+.contactUS {
+  height: 300px;
+}
+.frequently {
+  color: #3aa6b9;
+  font-size: 44px;
+}
+.box {
+  border-radius: 10px;
+  top: -80px;
+}
+.contact-img {
+  top: 401px;
+  right: 50px;
+}
+/* end contact us */
+/* start blog */
+.cards {
+  border: 10px black;
+  border-radius: 1px;
+  box-shadow: 5px black;
+}
+.blog-one,
+.blog-two {
+  color: #3aa6b9;
+}
+/* end blog */
+/* start features */
+.healthy,
+.check {
+  color: #3aa6b9;
+}
+/* end features */
+
+.topic-check {
+  border-radius: 30px;
+  background-color: #fff;
+  padding: 9px 20px 9px 20px;
+  border-color: #dee0fa !important;
+  font-weight: 500;
+}
+.btn-check:checked + .btn.topic-check {
+  background-color: #3aa6b9;
+  color: #fff;
+}
