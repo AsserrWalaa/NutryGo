@@ -4,6 +4,8 @@ import icon1 from "../assets/imgs/Health, Sport, Apple watch.png"
 import icon2 from "../assets/imgs/Group.png"
 import icon3 from "../assets/imgs/shop.png"
 import icon4 from "../assets/imgs/expand.png"
+import line from "../assets/imgs/line.png"
+
 function features() {
     return (<>
         {/* // <!-- start featuers header --> */}
@@ -19,15 +21,18 @@ function features() {
                     <hr/>
                     <div>
                         <div className="d-flex">
-                            {/* <i className="fa-solid fa-check check fs-5 me-2 mt-1"></i> */}
+                                {/* <i className="fa-solid fa-check check fs-5 me-2 mt-1"></i> */}
+                                <img src={line} alt="" width="20" height="20" className="mx-2 my-1"/>
                             <h5>Upgrade your life style and habits.</h5>
                         </div>
                         <div className="d-flex">
-                            {/* <i className="fa-solid fa-check check fs-5 me-2 mt-1"></i> */}
+                                {/* <i className="fa-solid fa-check check fs-5 me-2 mt-1"></i> */}
+                                <img src={line} alt="" width="20" height="20" className="mx-2 my-1"/>
                             <h5>Book your doctor appointment easily.</h5>
                         </div>
                         <div className="d-flex">
-                            {/* <i className="fa-solid fa-check check fs-5 me-2 mt-1"></i> */}
+                                {/* <i className="fa-solid fa-check check fs-5 me-2 mt-1"></i> */}
+                                <img src={line} alt="" width="20" height="20" className="mx-2 my-1"/>
                             <h5>Shop your healthy product from your home.</h5>
                         </div>
                     </div>
@@ -45,7 +50,7 @@ function features() {
             <div className="col-lg-6 col-md-6 col-sm-12 mb-1 d-flex align-items-center">
                 <div className="pe-3">
                     <h1 className="fw-bolder text-dark pt-3">
-                        <img src={icon1} alt="" width="50" className="mb-4"/>
+                    <img src={icon1} alt="" width="50" className="mb-4"/>
                     </h1>
                 </div>
                 <div>

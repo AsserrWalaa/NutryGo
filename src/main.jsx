@@ -12,6 +12,7 @@ import "./style/style.css";
 
 const router = createBrowserRouter([
   { path: "/", element: <Home /> },
+  { path: "/Home", element: <Home /> },
   { path: "/contact", element: <Contact /> }, 
   { path: "/blog", element: <Blog /> }, 
   { path: "/features", element: <Features /> }, 

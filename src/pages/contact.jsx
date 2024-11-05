@@ -35,25 +35,25 @@ const ContactUs = () => {
               <input type="radio" className="btn-check topic-check" name="options" id="option2" autoComplete="off"/>
               <label className="btn topic-check border-secondary active" htmlFor="option2">Billing and plans</label>
 
-              <input type="radio" className="btn-check topic-check" name="options" id="option4" autoComplete="off"/>
-              <label className="btn topic-check border-secondary mt-md-1 mt-sm-1" htmlFor="option4">Connection Trouble</label>
+              <input type="radio" className="btn-check topic-check" name="options" id="option3" autoComplete="off"/>
+              <label className="btn topic-check border-secondary mt-md-1 mt-sm-1" htmlFor="option3">Connection Trouble</label>
             </div>
             <div className="topics-row-two mt-2">
-              <input type="radio" className="btn-check topic-check" name="options" id="option5" autoComplete="off" />
-              <label className="btn topic-check border-secondary" htmlFor="option5">Notifications</label>
+              <input type="radio" className="btn-check topic-check" name="options" id="option4" autoComplete="off" />
+              <label className="btn topic-check border-secondary" htmlFor="option4">Notifications</label>
+
+              <input type="radio" className="btn-check topic-check" name="options" id="option5" autoComplete="off"/>
+              <label className="btn topic-check border-secondary" htmlFor="option5">Managing Channels</label>
 
               <input type="radio" className="btn-check topic-check" name="options" id="option6" autoComplete="off"/>
-              <label className="btn topic-check border-secondary" htmlFor="option6">Managing Channels</label>
-
-              <input type="radio" className="btn-check topic-check" name="options" id="option7" autoComplete="off"/>
-              <label className="btn topic-check border-secondary" htmlFor="option7">Signing in</label>
+              <label className="btn topic-check border-secondary" htmlFor="option6">Signing in</label>
             </div>
             <div className="topics-row-three mt-2">
-              <input type="radio" className="btn-check topic-check" name="options" id="option8" autoComplete="off" />
-              <label className="btn topic-check border-secondary" htmlFor="option8">New design feedback</label>
+              <input type="radio" className="btn-check topic-check" name="options" id="option7" autoComplete="off" />
+              <label className="btn topic-check border-secondary" htmlFor="option7">New design feedback</label>
 
-              <input type="radio" className="btn-check topic-check" name="options" id="option9" autoComplete="off"/>
-              <label className="btn topic-check border-secondary" htmlFor="option9">Trial of a paid plan</label>
+              <input type="radio" className="btn-check topic-check" name="options8" id="option9" autoComplete="off"/>
+              <label className="btn topic-check border-secondary" htmlFor="option8">Trial of a paid plan</label>
             </div>
           </div>
           <div>

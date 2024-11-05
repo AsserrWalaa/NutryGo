@@ -6,9 +6,7 @@ const Footer = () => {
   return (
     <>
       <div className="d-flex justify-content-center ">
-        <a href="" className="text-decoration-none text-secondary">
-          <h6>About</h6>
-        </a>
+      
         <a href="/blog" className="text-decoration-none text-secondary ms-3">
           <h6>Blog</h6>
         </a>

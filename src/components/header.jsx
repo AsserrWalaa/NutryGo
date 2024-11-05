@@ -1,53 +1,31 @@
 import React from "react";
 import logo from "../assets/imgs/NUTRY.png";
+import { Navbar, Nav, NavDropdown } from 'react-bootstrap';
 import blog from "./../pages/blog";
 import features from "./../pages/features";
 import Home from "./../pages/home";
 
 const Header = () => {
   return (
-    <nav className="navbar navbar-expand-lg navbar-light ">
-      <div className="container-fluid container">
-        <a className="navbar-brand" href="/home" target="_blank">
-          <img src={logo} />
-        </a>
-        <button
-          className="navbar-toggler"
-          type="button"
-          data-bs-toggle="collapse"
-          data-bs-target="#navbarSupportedContent"
-          aria-controls="navbarSupportedContent"
-          aria-expanded="false"
-          aria-label="Toggle navigation"
-        >
-          <span className="navbar-toggler-icon"></span>
+<Navbar collapseOnSelect expand="lg" bg="light" variant="light">
+  <div className="container-fluid container">
+    <Navbar.Brand href="/home" target="_blank">
+      <img src={logo} alt="Logo" />
+    </Navbar.Brand>
+    <Navbar.Toggle aria-controls="navbar-nav" />
+    <Navbar.Collapse id="navbar-nav">
+      <Nav className="me-auto mb-2 mb-lg-0">
+        <Nav.Link href="/features" target="_blank">Features</Nav.Link>
+        <Nav.Link href="/blog" target="_blank">Blog</Nav.Link>
+      </Nav>
+      <form className="">
+        <button className="get-access py-1 px-lg-2" type="submit">
+          Get Access
         </button>
-        <div className="collapse navbar-collapse" id="navbarSupportedContent">
-          <ul className="navbar-nav me-auto mb-2 mb-lg-0">
-            <li className="nav-item">
-              <a className="nav-link active" aria-current="page" href="#">
-                About
-              </a>
-            </li>
-            <li className="nav-item">
-              <a className="nav-link" href="/features" target="_blank">
-                Features
-              </a>
-            </li>
-            <li className="nav-item">
-              <a className="nav-link " href="/blog" target="_blank">
-                Blog
-              </a>
-            </li>
-          </ul>
-          <form className="">
-            <button className=" get-access py-1 px-2" type="submit">
-              Get Access
-            </button>
-          </form>
-        </div>
-      </div>
-    </nav>
+      </form>
+    </Navbar.Collapse>
+  </div>
+</Navbar>
   );
 };
 
